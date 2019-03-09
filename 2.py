@@ -4,7 +4,7 @@ import numpy
 def dane():
     #parts = [[5,4,4,3],[5,5,4,5],[3,2,5,7]]
     #parts = [[6,10,4,7,6,5],[4,8,9,2,3,6]]
-    parts = [[4,4,30,6,2],[5,1,4,30,3]] # http://www.rspq.org/pubs/j2.pdf # Cmax 47
+     parts = [[10,4,4,2,3],[1,7,2,5,1], [5,3,9,8,7]] # http://www.rspq.org/pubs/j2.pdf # Cmax 47
     jobs = len(parts[0]) # if parts are the same length p1 = p2 = p3 = pn https://ieda.ust.hk/dfaculty/ajay/courses/ieem513/GT/johnson.html
     machines = len(parts) # amount of machines
     return machines, jobs, parts
