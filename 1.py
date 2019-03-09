@@ -30,7 +30,7 @@ def main():
     machines = len(parts)
     jobs = len(parts[0])
     for p in permute(dane):
-        print("Cmax dla permutacji {} jest rowny {}".format(p,makespan(p, parts, machines)[machines - 1][jobs] ))
+        print("Cmax: {}. Permutation {}".format(makespan(p, parts, machines)[machines - 1][jobs] ),p)
 
 
 
